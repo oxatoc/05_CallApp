@@ -1,0 +1,39 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="В смартфоне: приложение Таблицы -> клик на 3-х точках справа от названия таблицы -> Копировать ссылку"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/textView3"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:text="Ссылка на таблицу Google критериев номеров телефонов:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|bottom"
+        android:id="@+id/phoneCriteriaSheetIDEditText"
+        android:layout_weight="6"
+        android:background="#E6E6E6"
+        />
+    <Button
+        android:text="Сохранить"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savePhoneCriteriaSheetIDButton"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+</LinearLayout>

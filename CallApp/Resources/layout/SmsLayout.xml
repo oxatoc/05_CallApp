@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logEditText" 
+        android:focusableInTouchMode="false"
+        android:gravity="top|left"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1" 
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:text="Показать сообщения"
+            android:id="@+id/showButton"
+            android:layout_column="0"
+            android:layout_row="0"
+            style="@style/buttonsInGridLayout"
+            />
+        <Button
+            android:text="Выгрузить сообщения"
+            android:id="@+id/uploadButton"
+            android:layout_column="0"
+            android:layout_row="0"
+            style="@style/buttonsInGridLayout"
+            />
+    </LinearLayout>>
+
+
+</LinearLayout>
