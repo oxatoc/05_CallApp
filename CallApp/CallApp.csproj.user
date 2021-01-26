@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
-    <SelectedDevice>HMD Global Nokia 2.1</SelectedDevice>
+    <SelectedDevice>callappadmin_2</SelectedDevice>
     <DefaultDevice>callappadmin_2</DefaultDevice>
   </PropertyGroup>
 </Project>
